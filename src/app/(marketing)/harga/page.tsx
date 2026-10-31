@@ -808,7 +808,7 @@ export default function HargaPage() {
         </section>{' '}
         {/* Download Center: Archive of Official Decrees (SK) */}{' '}
         <section
-          className="animate-fade-in-up w-full bg-surface-container-low py-space-xl px-gutter-lg"
+          className="animate-fade-in-up w-full bg-surface-container-low pt-24 pb-space-xl px-gutter-lg border-t border-surface-container-high/40"
           id="download-center"
         >
           {' '}
@@ -838,10 +838,10 @@ export default function HargaPage() {
                 Pertamina{' '}
               </div>{' '}
             </div>{' '}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-md">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {' '}
               {/* Doc 1 */}{' '}
-              <div className="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+              <div className="p-6 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-6 hover:shadow-md transition-all border border-surface-container-high/20">
                 {' '}
                 <div className="flex items-start gap-space-sm">
                   {' '}
@@ -871,7 +871,7 @@ export default function HargaPage() {
                 </button>{' '}
               </div>{' '}
               {/* Doc 2 */}{' '}
-              <div className="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+              <div className="p-6 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-6 hover:shadow-md transition-all border border-surface-container-high/20">
                 {' '}
                 <div className="flex items-start gap-space-sm">
                   {' '}
@@ -901,7 +901,7 @@ export default function HargaPage() {
                 </button>{' '}
               </div>{' '}
               {/* Doc 3 */}{' '}
-              <div className="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+              <div className="p-6 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-6 hover:shadow-md transition-all border border-surface-container-high/20">
                 {' '}
                 <div className="flex items-start gap-space-sm">
                   {' '}
@@ -931,7 +931,7 @@ export default function HargaPage() {
                 </button>{' '}
               </div>{' '}
               {/* Doc 4 */}{' '}
-              <div className="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+              <div className="p-6 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-6 hover:shadow-md transition-all border border-surface-container-high/20">
                 {' '}
                 <div className="flex items-start gap-space-sm">
                   {' '}
@@ -961,7 +961,7 @@ export default function HargaPage() {
                 </button>{' '}
               </div>{' '}
               {/* Doc 5 */}{' '}
-              <div className="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md hover:shadow-md transition-shadow">
+              <div className="p-6 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-6 hover:shadow-md transition-all border border-surface-container-high/20">
                 {' '}
                 <div className="flex items-start gap-space-sm">
                   {' '}
@@ -991,7 +991,7 @@ export default function HargaPage() {
                 </button>{' '}
               </div>{' '}
               {/* Technical Specification Sheet */}{' '}
-              <div className="p-space-md rounded-xl bg-surface-container-high flex flex-col justify-between gap-space-md">
+              <div className="p-6 rounded-xl bg-surface-container-high flex flex-col justify-between gap-6 shadow-sm hover:shadow-md transition-all">
                 {' '}
                 <div className="flex items-start gap-space-sm">
                   {' '}
