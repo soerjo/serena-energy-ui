@@ -20,12 +20,20 @@ export default function Header() {
       <div className="h-20 w-full px-gutter-lg flex items-center justify-center">
         <div className="w-full max-w-[1440px] mx-auto flex items-center justify-between gap-space-md">
           {/* Brand Logo */}
-          <Link href="/" className="flex items-center shrink-0">
+          <Link href="/" className="flex items-center gap-3 shrink-0 group">
             <img
-              src="/images/stitch/e9aede9543f0a825239a3f02b9bc11a9.jpg"
+              src="/images/serena-logo.png"
               alt="Logo PT Serena Energy"
-              className="h-10 w-auto object-contain"
+              className="h-11 w-auto object-contain transition-transform group-hover:scale-105"
             />
+            <div className="flex flex-col">
+              <span className="font-headline-sm text-headline-sm tracking-tight text-on-surface font-bold">
+                SERENA<span className="text-primary-container">ENERGY</span>
+              </span>
+              <span className="font-label-sm text-label-sm text-secondary uppercase -mt-1">
+                PT Serena Energi Unggul
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

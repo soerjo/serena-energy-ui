@@ -10,8 +10,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-lg">
           <div className="lg:col-span-4 flex flex-col gap-space-md">
             <div className="flex items-center gap-space-sm">
-              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container-lowest text-primary-container shadow-[0_1px_3px_rgba(15,23,42,0.05)]">
-                <span className="material-symbols-outlined text-[24px]">local_fire_department</span>
+              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-surface-container-lowest shadow-[0_1px_3px_rgba(15,23,42,0.05)] p-1">
+                <img
+                  src="/images/serena-logo.png"
+                  alt="Logo PT Serena Energy"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-space-xs">
