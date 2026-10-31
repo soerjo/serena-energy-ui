@@ -37,7 +37,7 @@ export default function TentangPage() {
           <div className="max-w-7xl mx-auto flex flex-col gap-margin">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
               {/*  Text Column  */}
-              <div className="lg:col-span-7 flex flex-col gap-space-md">
+              <div className="lg:col-span-7 flex flex-col gap-space-md" data-parallax-speed="0.04">
                 <div className="flex flex-wrap items-center gap-space-xs">
                   <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-error-container text-primary font-label-sm text-label-sm tracking-widest uppercase font-bold">
                     <span className="material-symbols-outlined text-[16px]">history_toggle_off</span>
@@ -907,7 +907,7 @@ export default function TentangPage() {
           <div className="max-w-7xl mx-auto rounded-xl p-space-lg lg:p-space-xl bg-surface-container-lowest shadow-md">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
               {/*  Content  */}
-              <div className="lg:col-span-7 flex flex-col gap-space-md">
+              <div className="lg:col-span-7 flex flex-col gap-space-md" data-parallax-speed="0.04">
                 <div className="flex items-center gap-space-xs">
                   <span className="w-2.5 h-2.5 rounded-full bg-primary"></span>
                   <span className="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">

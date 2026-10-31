@@ -552,7 +552,7 @@ export default function ProdukPage() {
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
               {/*  Text & Core Pillars  */}
-              <div className="lg:col-span-7 flex flex-col gap-space-md">
+              <div className="lg:col-span-7 flex flex-col gap-space-md" data-parallax-speed="0.04">
                 <div className="inline-flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase font-bold">
                   <span className="material-symbols-outlined text-[18px]">verified</span>
                   Integritas Operasional Serena Energy

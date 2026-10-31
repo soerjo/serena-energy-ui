@@ -31,7 +31,7 @@ export default function HargaPage() {
         <section className="w-full bg-surface py-space-xl px-gutter-lg">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-end">
-              <div className="lg:col-span-8 flex flex-col gap-space-sm">
+              <div className="lg:col-span-8 flex flex-col gap-space-sm" data-parallax-speed="0.04">
                 <div className="inline-flex items-center gap-space-xs text-primary-container font-label-md text-label-md uppercase tracking-wider">
                   <span className="material-symbols-outlined text-[18px]">verified_user</span>
                   Transparansi Indeks Energi Terintegrasi
@@ -148,7 +148,10 @@ export default function HargaPage() {
             </div>
             {/*  Main High-Precision Table: B40 View (Default)  */}
             <div className="flex flex-col gap-space-md transition-opacity duration-300" id="view-b40">
-              <div className="overflow-x-auto rounded-xl shadow-md bg-surface-container-lowest">
+              <div
+                className="overflow-x-auto rounded-xl shadow-md bg-surface-container-lowest"
+                data-parallax-speed="0.02"
+              >
                 <table className="w-full text-left font-body-md text-body-md border-collapse">
                   <thead className="bg-surface-container text-on-surface font-label-lg text-label-lg">
                     <tr>
@@ -516,7 +519,7 @@ export default function HargaPage() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg">
               {/*  Loco vs Franco Structural Comparison  */}
-              <div className="lg:col-span-7 flex flex-col gap-space-md">
+              <div className="lg:col-span-7 flex flex-col gap-space-md" data-parallax-speed="0.04">
                 <div className="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-sm">
                   <div className="flex items-center gap-space-sm">
                     <div className="p-space-xs rounded-lg bg-surface-container text-primary-container">

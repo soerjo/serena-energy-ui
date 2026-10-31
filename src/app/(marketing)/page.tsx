@@ -11,6 +11,7 @@ export default function HomePage() {
           {/*  Background Image & Atmospheric Industrial Scrim Overlay  */}
           <div
             className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+            data-parallax-speed="-0.15"
             data-alt="Bendera Merah Putih Indonesia berkibar di langit biru - Simbol Kedaulatan Energi Nasional"
             style={{ backgroundImage: "url('/images/hero-flag-bg.jpg')" }}
           >
@@ -24,7 +25,7 @@ export default function HomePage() {
 
             {/*  Main Hero Grid  */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-end mb-16">
-              <div className="lg:col-span-12 flex flex-col gap-space-md max-w-4xl">
+              <div className="lg:col-span-12 flex flex-col gap-space-md max-w-4xl" data-parallax-speed="0.04">
                 <h1 className="font-headline-xl text-headline-xl tracking-tighter text-inverse-on-surface font-bold uppercase leading-none">
                   ENERGIZING <br />
                   <span className="text-primary-container">YOUR FUTURE</span>
@@ -53,7 +54,10 @@ export default function HomePage() {
             </div>
 
             {/*  3 Key Metrics Strip (Refined Translucent Overlay Cards)  */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter-lg pt-space-lg border-t border-surface-container-high/30">
+            <div
+              className="grid grid-cols-1 md:grid-cols-3 gap-gutter-lg pt-space-lg border-t border-surface-container-high/30"
+              data-parallax-speed="0.06"
+            >
               <div className="flex flex-col gap-space-xs">
                 <span className="font-headline-md text-headline-md font-bold text-inverse-on-surface">
                   18+ Tahun Dedikasi
@@ -454,6 +458,7 @@ export default function HomePage() {
                 <div className="relative w-full h-72 rounded-2xl overflow-hidden">
                   <div
                     className="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    data-parallax-speed="0.05"
                     data-alt="Heavy construction earthmovers and asphalt pavers working on high-priority highway bridge infrastructure in Central Java Indonesia, sunny afternoon lighting, industrial engineering aesthetic."
                     style={{ backgroundImage: "url(\'/images/stitch/dfadaf4b9e1f185b60e6d4af3888be68.jpg\')" }}
                   ></div>
@@ -484,6 +489,7 @@ export default function HomePage() {
                 <div className="relative w-full h-72 rounded-2xl overflow-hidden">
                   <div
                     className="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    data-parallax-speed="0.05"
                     data-alt="Mega infrastructure development in East Kalimantan showing massive earthworks, industrial trucks, and modern construction zone under vibrant blue sky with tropical greenery."
                     style={{ backgroundImage: "url(\'/images/stitch/7d131aba1b081167764eab4832995aba.jpg\')" }}
                   ></div>
@@ -514,6 +520,7 @@ export default function HomePage() {
                 <div className="relative w-full h-72 rounded-2xl overflow-hidden">
                   <div
                     className="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    data-parallax-speed="0.05"
                     data-alt="Bunkering vessel performing ship to ship fuel transfer to a large coal barge tug boat in deep blue coastal waters of Java Sea Indonesia, aerial telephoto angle with sea mist."
                     style={{ backgroundImage: "url(\'/images/stitch/17fd4ef1061b40df0d35e96ca5d295e0.jpg\')" }}
                   ></div>

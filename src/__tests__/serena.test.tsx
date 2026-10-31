@@ -3,6 +3,7 @@ import { describe, it, expect, vi } from 'vitest';
 import React from 'react';
 import Header, { navItems } from '@/components/serena/Header';
 import Footer from '@/components/serena/Footer';
+import ParallaxProvider from '@/components/serena/ParallaxProvider';
 import HomePage from '@/app/(marketing)/page';
 import HargaPage from '@/app/(marketing)/harga/page';
 import ProdukPage from '@/app/(marketing)/produk/page';
@@ -31,6 +32,15 @@ describe('PT Serena Energy 1:1 Stitch UI Pages', () => {
     expect(screen.getByText('ENERGY')).toBeInTheDocument();
     expect(screen.getByText('PT Serena Energi Unggul')).toBeInTheDocument();
     expect(screen.getByText(/Mitra Resmi Pertamina/i)).toBeInTheDocument();
+  });
+
+  it('renders ParallaxProvider wrapper without errors', () => {
+    render(
+      <ParallaxProvider>
+        <div data-testid="child-elem">Content</div>
+      </ParallaxProvider>,
+    );
+    expect(screen.getByTestId('child-elem')).toBeInTheDocument();
   });
 
   it('renders Beranda (HomePage) exactly matching Stitch prototype', () => {
