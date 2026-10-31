@@ -59,7 +59,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="flex items-center gap-space-md">
             <a
-              href="https://wa.me/628111928277?text=Halo%20PT%20Serena%20Energy,%20kami%20ingin%20meminta%20penawaran%20resmi"
+              href="https://wa.me/62811842595?text=Halo%20PT%20Serena%20Energy,%20kami%20ingin%20meminta%20penawaran%20resmi"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-space-md py-space-xs h-10 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary transition-all"

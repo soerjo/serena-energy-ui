@@ -693,11 +693,11 @@ export default function ProdukPage() {
                       <span className="material-symbols-outlined text-primary-container text-[20px]">
                         phone_in_talk
                       </span>
-                      <span className="font-title-lg text-title-lg font-bold text-on-surface">+62 822-6988-4913</span>
+                      <span className="font-title-lg text-title-lg font-bold text-on-surface">+62 811-842-595</span>
                     </div>
                     <a
                       className="px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md font-bold hover:bg-primary transition-colors flex items-center gap-1"
-                      href="https://wa.me/6282269884913"
+                      href="https://wa.me/62811842595"
                       rel="noopener"
                       target="_blank"
                     >

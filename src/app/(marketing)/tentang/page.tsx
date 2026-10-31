@@ -62,7 +62,7 @@ export default function TentangPage() {
                 <div className="flex flex-wrap items-center gap-space-md pt-space-xs">
                   <a
                     className="inline-flex items-center gap-space-xs px-space-lg py-space-md rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:opacity-95 transition-all"
-                    href="https://wa.me/6282269884913"
+                    href="https://wa.me/62811842595"
                     rel="noopener"
                     target="_blank"
                   >
@@ -883,9 +883,7 @@ export default function TentangPage() {
                     </div>
                     <div className="flex items-center gap-space-xs">
                       <span className="material-symbols-outlined text-secondary text-[18px]">support_agent</span>
-                      <span className="text-on-surface font-medium">
-                        Hotline Dispatcher: +62 822-6988-4913 (24 Jam)
-                      </span>
+                      <span className="text-on-surface font-medium">Hotline Dispatcher: +62 811-842-595 (24 Jam)</span>
                     </div>
                   </div>
                 </div>
@@ -926,12 +924,12 @@ export default function TentangPage() {
                 <div className="flex flex-wrap items-center gap-space-md pt-space-xs">
                   <a
                     className="inline-flex items-center gap-space-xs px-space-lg py-space-md rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:opacity-95 transition-all"
-                    href="https://wa.me/6282269884913"
+                    href="https://wa.me/62811842595"
                     rel="noopener"
                     target="_blank"
                   >
                     <span className="material-symbols-outlined text-[20px]">chat</span>
-                    <span className="">Hubungi Dispatcher (+62 822-6988-4913)</span>
+                    <span className="">Hubungi Dispatcher (+62 811-842-595)</span>
                   </a>
                   <a
                     className="inline-flex items-center gap-space-xs px-space-lg py-space-md rounded-xl bg-surface-container-high text-on-surface font-label-lg text-label-lg hover:bg-surface-variant transition-colors"

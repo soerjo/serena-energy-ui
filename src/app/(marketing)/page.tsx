@@ -570,7 +570,7 @@ export default function HomePage() {
                         Hotline Dispatcher &amp; Tender
                       </span>
                       <span className="font-headline-sm text-headline-sm font-bold text-on-surface block">
-                        +62 822-6988-4913
+                        +62 811-842-595
                       </span>
                       <span className="font-body-sm text-body-sm text-on-surface-variant">
                         Layanan Cepat via WhatsApp 24 Jam / 7 Hari

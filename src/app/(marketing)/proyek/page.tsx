@@ -614,12 +614,12 @@ export default function ProyekPage() {
                       <span className="font-label-sm text-label-sm text-on-surface-variant">
                         Hotline Dispatcher Cepat
                       </span>
-                      <span className="font-title-lg text-title-lg text-on-surface font-bold">+62 822-6988-4913</span>
+                      <span className="font-title-lg text-title-lg text-on-surface font-bold">+62 811-842-595</span>
                     </div>
                   </div>
                   <a
                     className="flex items-center justify-center gap-space-sm w-full py-space-md rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-bold shadow-sm hover:opacity-95 transition-all"
-                    href="https://wa.me/6282269884913"
+                    href="https://wa.me/62811842595"
                     rel="noopener"
                     target="_blank"
                   >

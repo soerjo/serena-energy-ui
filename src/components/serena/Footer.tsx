@@ -102,7 +102,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-space-xs font-body-md text-body-md text-on-surface-variant">
               <span className="material-symbols-outlined text-[20px] text-secondary shrink-0">call</span>
-              <span>+62 21 527 8899 / +62 811 1928 277</span>
+              <span>+62 21 527 8899 / +62 811-842-595</span>
             </div>
             <div className="flex items-center gap-space-xs font-body-md text-body-md text-on-surface-variant">
               <span className="material-symbols-outlined text-[20px] text-secondary shrink-0">mail</span>

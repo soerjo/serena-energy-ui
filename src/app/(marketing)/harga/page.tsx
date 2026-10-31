@@ -804,14 +804,14 @@ export default function HargaPage() {
                 </span>
                 <a
                   className="inline-flex items-center justify-between p-space-md rounded-xl bg-primary-container text-on-primary hover:bg-primary transition-colors"
-                  href="https://wa.me/6282269884913?text=Halo%20Tim%20PT%20Serena%20Energy,%20saya%20ingin%20konsultasi%20penawaran%20harga%20Franco%20BBM%20Industri"
+                  href="https://wa.me/62811842595?text=Halo%20Tim%20PT%20Serena%20Energy,%20saya%20ingin%20konsultasi%20penawaran%20harga%20Franco%20BBM%20Industri"
                   target="_blank"
                 >
                   <div className="flex items-center gap-space-sm">
                     <span className="material-symbols-outlined text-[24px]">chat</span>
                     <div className="flex flex-col text-left">
                       <span className="font-label-lg text-label-lg font-bold">WhatsApp Dispatcher 24 Jam</span>
-                      <span className="font-body-sm text-body-sm opacity-90">+62 822-6988-4913</span>
+                      <span className="font-body-sm text-body-sm opacity-90">+62 811-842-595</span>
                     </div>
                   </div>
                   <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
