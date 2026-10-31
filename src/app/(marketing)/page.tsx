@@ -10,13 +10,13 @@ export default function HomePage() {
         <section className="relative w-full overflow-hidden bg-surface text-on-surface">
           {/*  Background Image & Atmospheric Industrial Scrim Overlay  */}
           <div
-            className="absolute inset-0 z-0 bg-cover bg-center"
-            data-alt="Modern Indonesian petroleum bunkering vessel maneuvering beside large industrial shipping terminal under clear sunny sky"
-            style={{ backgroundImage: 'url(&quot' }}
+            className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+            data-alt="Bendera Merah Putih Indonesia berkibar di langit biru - Simbol Kedaulatan Energi Nasional"
+            style={{ backgroundImage: "url('/images/hero-flag-bg.jpg')" }}
           >
-            {/*  Multi-layered dark-to-light industrial overlay for crystal-clear text contrast  */}
-            <div className="absolute inset-0 bg-gradient-to-t from-on-background via-on-background/80 to-on-background/60"></div>
-            <div className="absolute inset-0 bg-surface/10 backdrop-blur-[1px]"></div>
+            {/* Multi-layered overlay to preserve contrast with text while highlighting the national flag */}
+            <div className="absolute inset-0 bg-gradient-to-r from-on-background/90 via-on-background/70 to-on-background/40"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-on-background via-transparent to-on-background/30"></div>
           </div>
 
           <div className="relative z-10 w-full max-w-[1440px] mx-auto px-gutter-lg pb-20 md:pb-24 pt-20">
