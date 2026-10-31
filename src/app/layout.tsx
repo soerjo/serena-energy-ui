@@ -21,7 +21,13 @@ export const metadata: Metadata = {
   title: 'PT Serena Energy - Mitra Resmi BBM Industri Pertamina',
   description: 'Mitra Resmi BBM Industri Pertamina Patra Niaga. Pasokan Biosolar B35/B40, HSD, MFO, dan Pertamina Dex.',
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
   },
 };
 
@@ -33,6 +39,9 @@ export default function RootLayout({
   return (
     <html lang="id" className={`${spaceGrotesk.variable} ${manrope.variable}`} suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
