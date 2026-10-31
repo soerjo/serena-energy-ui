@@ -22,6 +22,7 @@ export default defineConfig({
         'src/components/serena/**/*.{ts,tsx}',
         'src/components/react-bits/**/*.{ts,tsx}',
         'src/hooks/useParallax.ts',
+        'src/app/(marketing)/**/page.tsx',
       ],
       exclude: ['src/**/*.{test,spec}.{ts,tsx}', 'src/**/*.d.ts', 'src/**/index.ts'],
       thresholds: {
