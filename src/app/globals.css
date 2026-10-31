@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #0e7490;
+  --color-primary-container: #81d1f0;
+  --color-secondary: #dc2626;
+  --color-secondary-container: #b91c1c;
+  --color-tertiary: #f59e0b;
+  --color-background: #060a11;
+  --color-surface: #0d1320;
+  --color-surface-card: #0f172a;
+  --color-surface-glass: rgba(15, 23, 42, 0.75);
+  --color-border-subtle: rgba(56, 189, 248, 0.12);
+  --color-border-highlight: rgba(220, 38, 38, 0.35);
+  --color-glow-cyan: rgba(14, 116, 144, 0.35);
+  --font-headline: 'Syne', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-data: 'Space Grotesk', monospace;
+}
+
+:root {
+  --background: #060a11;
+  --foreground: #f8fafc;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-space {
+  font-family: 'Space Grotesk', monospace;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Glass styling */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(56, 189, 248, 0.12);
+}
+
+.glass-panel-elevated {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(14, 116, 144, 0.2);
+}
