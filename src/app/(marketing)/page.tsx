@@ -734,7 +734,10 @@ export default function HomePage() {
           </div>{' '}
         </section>{' '}
         {/* Section 6: Quick Consultation / RFQ Form Section */}{' '}
-        <section className="animate-fade-in-up w-full bg-surface-container-low pb-space-lg" id="rfq-section">
+        <section
+          className="animate-fade-in-up w-full bg-surface-container-low pt-24 pb-space-xl border-t border-surface-container-high/40"
+          id="rfq-section"
+        >
           {' '}
           <div className="w-full max-w-[1440px] mx-auto px-gutter-lg">
             {' '}
