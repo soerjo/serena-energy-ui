@@ -7,7 +7,7 @@ export default function HomePage() {
     <div className="w-full">
       <div className="flex flex-col w-full">
         {/*  Top Parallax & Hero Section  */}
-        <section className="relative w-full overflow-hidden bg-surface text-on-surface">
+        <section className="relative w-full overflow-hidden bg-surface text-on-surface reveal-init">
           {/*  Background Image & Atmospheric Industrial Scrim Overlay  */}
           <div
             className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
@@ -87,7 +87,7 @@ export default function HomePage() {
           </div>
         </section>
         {/*  Section 2: Ringkasan Eksekutif & 5 Pilar Keunggulan  */}
-        <section className="w-full bg-surface-container-low py-margin-lg" id="ekosistem-energi">
+        <section className="w-full bg-surface-container-low py-margin-lg reveal-init" id="ekosistem-energi">
           <div className="w-full max-w-[1440px] mx-auto px-gutter-lg">
             {/*  Section Label & Headline  */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-16">
@@ -163,7 +163,7 @@ export default function HomePage() {
           </div>
         </section>
         {/*  Section 3: Portofolio Energi & Logistik Terpadu  */}
-        <section className="w-full bg-surface py-margin-lg">
+        <section className="w-full bg-surface py-margin-lg reveal-init">
           <div className="w-full max-w-[1440px] mx-auto px-gutter-lg">
             {/*  Section Header  */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-12">
@@ -185,7 +185,7 @@ export default function HomePage() {
             </div>
             {/*  Core Fuel Categories (Pure Editorial Layout)  */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-lg mb-16">
-              <div className="flex flex-col gap-space-sm pb-space-md border-b border-surface-container-high">
+              <div className="flex flex-col gap-space-sm pb-space-md border-b border-surface-container-high reveal-init interactive-card">
                 <div className="flex items-center justify-between">
                   <span className="font-label-sm text-label-sm font-bold text-primary-container uppercase">
                     Darat &amp; Tambang
@@ -207,7 +207,7 @@ export default function HomePage() {
                   </span>
                 </div>
               </div>
-              <div className="flex flex-col gap-space-sm pb-space-md border-b border-surface-container-high">
+              <div className="flex flex-col gap-space-sm pb-space-md border-b border-surface-container-high reveal-init interactive-card">
                 <div className="flex items-center justify-between">
                   <span className="font-label-sm text-label-sm font-bold text-secondary uppercase">Bunkering Laut</span>
                   <span className="material-symbols-outlined text-secondary text-[20px]">directions_boat</span>
@@ -227,7 +227,7 @@ export default function HomePage() {
                   </span>
                 </div>
               </div>
-              <div className="flex flex-col gap-space-sm pb-space-md border-b border-surface-container-high">
+              <div className="flex flex-col gap-space-sm pb-space-md border-b border-surface-container-high reveal-init interactive-card">
                 <div className="flex items-center justify-between">
                   <span className="font-label-sm text-label-sm font-bold text-on-surface-variant uppercase">
                     Rendah Emisi
@@ -251,7 +251,7 @@ export default function HomePage() {
               </div>
             </div>
             {/*  Fleet & Transport Capacity Bar  */}
-            <div className="bg-surface-container p-space-lg rounded-2xl">
+            <div className="bg-surface-container p-space-lg rounded-2xl reveal-init reveal-delay-2 interactive-card">
               <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md mb-6">
                 <div>
                   <span className="font-label-sm text-label-sm uppercase font-bold text-secondary">
@@ -319,7 +319,7 @@ export default function HomePage() {
           </div>
         </section>
         {/*  Section 4: Snapshot Harga BBM Industri Pertamina Terkini  */}
-        <section className="w-full bg-surface-container-low py-margin-lg">
+        <section className="w-full bg-surface-container-low py-margin-lg reveal-init">
           <div className="w-full max-w-[1440px] mx-auto px-gutter-lg">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-12">
               <div>
@@ -432,7 +432,7 @@ export default function HomePage() {
           </div>
         </section>
         {/*  Section 5: Showcase Proyek Strategis Terpilih  */}
-        <section className="w-full bg-surface py-margin-lg">
+        <section className="w-full bg-surface py-margin-lg reveal-init">
           <div className="w-full max-w-[1440px] mx-auto px-gutter-lg">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-16">
               <div>
@@ -454,7 +454,7 @@ export default function HomePage() {
             {/*  3 Featured Projects (Card-free Editorial Row)  */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-gutter-lg">
               {/*  Project 1  */}
-              <div className="flex flex-col gap-space-md group">
+              <div className="flex flex-col gap-space-md group reveal-init reveal-delay-1 interactive-card">
                 <div className="relative w-full h-72 rounded-2xl overflow-hidden">
                   <div
                     className="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500"
@@ -485,7 +485,7 @@ export default function HomePage() {
                 </div>
               </div>
               {/*  Project 2  */}
-              <div className="flex flex-col gap-space-md group">
+              <div className="flex flex-col gap-space-md group reveal-init reveal-delay-1 interactive-card">
                 <div className="relative w-full h-72 rounded-2xl overflow-hidden">
                   <div
                     className="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500"
@@ -516,7 +516,7 @@ export default function HomePage() {
                 </div>
               </div>
               {/*  Project 3  */}
-              <div className="flex flex-col gap-space-md group">
+              <div className="flex flex-col gap-space-md group reveal-init reveal-delay-1 interactive-card">
                 <div className="relative w-full h-72 rounded-2xl overflow-hidden">
                   <div
                     className="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500"
@@ -550,7 +550,7 @@ export default function HomePage() {
           </div>
         </section>
         {/*  Section 6: Quick Consultation / RFQ Form Section  */}
-        <section className="w-full bg-surface-container-low pb-space-lg" id="rfq-section">
+        <section className="w-full bg-surface-container-low pb-space-lg reveal-init" id="rfq-section">
           <div className="w-full max-w-[1440px] mx-auto px-gutter-lg">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-start">
               {/*  Contact & Value Proposition  */}

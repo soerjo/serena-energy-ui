@@ -33,7 +33,7 @@ export default function TentangPage() {
           </div>
         </div>
         {/*  HERO SECTION: STRATEGIC PROFIL KORPORAT  */}
-        <section className="w-full py-margin-lg px-gutter-lg bg-surface">
+        <section className="w-full py-margin-lg px-gutter-lg bg-surface reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-margin">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
               {/*  Text Column  */}
@@ -174,7 +174,7 @@ export default function TentangPage() {
           </div>
         </section>
         {/*  VISI & MISI KORPORAT: EXECUTIVE STRATEGIC STATEMENT  */}
-        <section className="w-full py-margin-lg px-gutter-lg bg-surface-container-low">
+        <section className="w-full py-margin-lg px-gutter-lg bg-surface-container-low reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-margin">
             {/*  Section Header  */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
@@ -296,7 +296,7 @@ export default function TentangPage() {
           </div>
         </section>
         {/*  5 PILAR NILAI LAYANAN ("PASTI PAS, PASTI SENYUM, PASTI PUAS")  */}
-        <section className="w-full py-margin-lg px-gutter-lg bg-surface">
+        <section className="w-full py-margin-lg px-gutter-lg bg-surface reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-margin">
             {/*  Section Header  */}
             <div className="text-center max-w-3xl mx-auto flex flex-col gap-space-xs">
@@ -434,7 +434,7 @@ export default function TentangPage() {
           </div>
         </section>
         {/*  PORTOFOLIO LINI BISNIS & SOLUSI TERPADU  */}
-        <section className="w-full py-margin-lg px-gutter-lg bg-surface-container-low">
+        <section className="w-full py-margin-lg px-gutter-lg bg-surface-container-low reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-margin">
             <div className="flex flex-col gap-space-xs">
               <span className="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">
@@ -606,7 +606,7 @@ export default function TentangPage() {
           </div>
         </section>
         {/*  LEGALITAS, SERTIFIKASI & KEPATUHAN REGULASI (COMPLIANCE VAULT)  */}
-        <section className="w-full py-margin-lg px-gutter-lg bg-surface" id="legalitas">
+        <section className="w-full py-margin-lg px-gutter-lg bg-surface reveal-init" id="legalitas">
           <div className="max-w-7xl mx-auto flex flex-col gap-margin">
             {/*  Section Header  */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
@@ -788,7 +788,7 @@ export default function TentangPage() {
           </div>
         </section>
         {/*  STRUKTUR JARINGAN OPERASIONAL & KANTOR RESMI  */}
-        <section className="w-full py-margin-lg px-gutter-lg bg-surface-container-low">
+        <section className="w-full py-margin-lg px-gutter-lg bg-surface-container-low reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-margin">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
               <div className="flex flex-col gap-space-xs">
@@ -903,7 +903,7 @@ export default function TentangPage() {
           </div>
         </section>
         {/*  CTA SECTION: PARTNERSHIP & INQUIRY  */}
-        <section className="w-full py-margin-lg px-gutter-lg bg-surface">
+        <section className="w-full py-margin-lg px-gutter-lg bg-surface reveal-init">
           <div className="max-w-7xl mx-auto rounded-xl p-space-lg lg:p-space-xl bg-surface-container-lowest shadow-md">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
               {/*  Content  */}

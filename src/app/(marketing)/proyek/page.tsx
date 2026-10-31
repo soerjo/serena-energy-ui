@@ -7,7 +7,7 @@ export default function ProyekPage() {
     <div className="w-full">
       <div className="flex flex-col w-full">
         {/*  SECTION 1: EDITORIAL HEADER & NAVIGATION  */}
-        <section className="w-full bg-surface-container-lowest px-gutter-lg py-space-xl">
+        <section className="w-full bg-surface-container-lowest px-gutter-lg py-space-xl reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             {/*  Breadcrumb  */}
             <nav className="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
@@ -54,7 +54,7 @@ export default function ProyekPage() {
           </div>
         </section>
         {/*  SECTION 2: EXECUTIVE HIGHLIGHTS BAR  */}
-        <section className="w-full bg-surface px-gutter-lg py-space-lg">
+        <section className="w-full bg-surface px-gutter-lg py-space-lg reveal-init">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter-sm">
               <div className="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col gap-space-xs">
@@ -113,7 +113,7 @@ export default function ProyekPage() {
           </div>
         </section>
         {/*  SECTION 3: FEATURED CASE STUDY IN-DEPTH  */}
-        <section className="w-full bg-surface-container-low px-gutter-lg py-space-xl">
+        <section className="w-full bg-surface-container-low px-gutter-lg py-space-xl reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-space-xs text-primary font-label-md text-label-md">
@@ -318,7 +318,7 @@ export default function ProyekPage() {
           </div>
         </section>
         {/*  SECTION 4: CATALOG OF OTHER CASE STUDIES (2x2 GRID)  */}
-        <section className="w-full bg-surface px-gutter-lg py-space-xl">
+        <section className="w-full bg-surface px-gutter-lg py-space-xl reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="flex flex-col gap-space-xs">
               <span className="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">
@@ -497,7 +497,7 @@ export default function ProyekPage() {
           </div>
         </section>
         {/*  SECTION 5: SOP FLOW INFOGRAPHIC  */}
-        <section className="w-full bg-surface-container-low px-gutter-lg py-space-xl">
+        <section className="w-full bg-surface-container-low px-gutter-lg py-space-xl reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="flex flex-col items-center text-center gap-space-xs max-w-3xl mx-auto">
               <span className="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">
@@ -588,7 +588,7 @@ export default function ProyekPage() {
           </div>
         </section>
         {/*  SECTION 6: CTA & PROJECT INQUIRY FORM  */}
-        <section className="w-full bg-surface px-gutter-lg py-space-xl">
+        <section className="w-full bg-surface px-gutter-lg py-space-xl reveal-init">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg bg-surface-container-lowest p-space-xl rounded-xl shadow-sm">
               {/*  CTA Details (5 Cols)  */}

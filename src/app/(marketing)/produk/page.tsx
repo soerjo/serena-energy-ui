@@ -7,7 +7,7 @@ export default function ProdukPage() {
     <div className="w-full">
       <div className="flex flex-col w-full">
         {/*  Top Navigation & Header Contextual Section  */}
-        <section className="w-full px-gutter-lg py-space-lg bg-surface-container-lowest shadow-sm">
+        <section className="w-full px-gutter-lg py-space-lg bg-surface-container-lowest shadow-sm reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-md">
             {/*  Breadcrumb  */}
             <nav
@@ -52,7 +52,7 @@ export default function ProdukPage() {
           </div>
         </section>
         {/*  Interactive Product Tabs  */}
-        <section className="w-full px-gutter-lg pt-space-lg pb-space-sm bg-surface">
+        <section className="w-full px-gutter-lg pt-space-lg pb-space-sm bg-surface reveal-init">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center gap-2 overflow-x-auto pb-space-xs" id="product-tab-container">
               <button className="product-tab-btn active px-space-md py-space-sm rounded-xl font-label-lg text-label-lg bg-inverse-surface text-on-primary shadow-sm flex items-center gap-2 transition-all">
@@ -79,7 +79,7 @@ export default function ProdukPage() {
           </div>
         </section>
         {/*  Technical Lab Sheet & Quality Verification Details  */}
-        <section className="w-full px-gutter-lg py-space-lg bg-surface">
+        <section className="w-full px-gutter-lg py-space-lg bg-surface reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             {/*  Tab Header Context Banner  */}
             <div className="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md relative overflow-hidden">
@@ -310,7 +310,7 @@ export default function ProdukPage() {
           </div>
         </section>
         {/*  Distribution Fleet & Modality Infrastructure  */}
-        <section className="w-full px-gutter-lg py-margin-lg bg-surface-container-low">
+        <section className="w-full px-gutter-lg py-margin-lg bg-surface-container-low reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-xl">
             {/*  Section Header  */}
             <div className="flex flex-col gap-space-xs">
@@ -548,7 +548,7 @@ export default function ProdukPage() {
           </div>
         </section>
         {/*  Jaminan 3 Pasti Pas & Value Chain PT Serena Energy  */}
-        <section className="w-full px-gutter-lg py-margin-lg bg-surface-container-lowest">
+        <section className="w-full px-gutter-lg py-margin-lg bg-surface-container-lowest reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
               {/*  Text & Core Pillars  */}
@@ -651,7 +651,7 @@ export default function ProdukPage() {
           </div>
         </section>
         {/*  Interactive RFQ Form (Formulir Pemesanan & Spesifikasi Cepat)  */}
-        <section className="w-full px-gutter-lg py-margin-lg bg-surface" id="rfq-section">
+        <section className="w-full px-gutter-lg py-margin-lg bg-surface reveal-init" id="rfq-section">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="p-space-lg rounded-xl bg-surface-container-lowest shadow-md flex flex-col lg:flex-row gap-space-xl">
               {/*  Left: RFQ Introduction & Quick WhatsApp Call  */}

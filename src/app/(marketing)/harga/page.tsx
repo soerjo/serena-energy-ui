@@ -7,7 +7,7 @@ export default function HargaPage() {
     <div className="w-full">
       <div className="flex flex-col w-full">
         {/*  Top Visual Status Strip  */}
-        <section className="w-full bg-surface-container-low py-space-sm px-gutter-lg">
+        <section className="w-full bg-surface-container-low py-space-sm px-gutter-lg reveal-init">
           <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-space-sm">
             <nav className="flex items-center gap-space-xs font-label-md text-label-md text-tertiary">
               <a className="hover:text-primary transition-colors" href="#">
@@ -28,7 +28,7 @@ export default function HargaPage() {
           </div>
         </section>
         {/*  Editorial Page Header & Macro Indicators  */}
-        <section className="w-full bg-surface py-space-xl px-gutter-lg">
+        <section className="w-full bg-surface py-space-xl px-gutter-lg reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-end">
               <div className="lg:col-span-8 flex flex-col gap-space-sm" data-parallax-speed="0.04">
@@ -107,7 +107,7 @@ export default function HargaPage() {
           </div>
         </section>
         {/*  Interactive Commodity Switching & Price Table Section  */}
-        <section className="w-full bg-surface-container-low py-space-xl px-gutter-lg">
+        <section className="w-full bg-surface-container-low py-space-xl px-gutter-lg reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             {/*  Interactive Commodity Selector  */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
@@ -507,7 +507,7 @@ export default function HargaPage() {
           </div>
         </section>
         {/*  Industrial Supply Logistics & Taxation Framework  */}
-        <section className="w-full bg-surface py-space-xl px-gutter-lg">
+        <section className="w-full bg-surface py-space-xl px-gutter-lg reveal-init">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="flex flex-col gap-space-xs">
               <span className="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">
@@ -611,7 +611,7 @@ export default function HargaPage() {
           </div>
         </section>
         {/*  Download Center: Archive of Official Decrees (SK)  */}
-        <section className="w-full bg-surface-container-low py-space-xl px-gutter-lg" id="download-center">
+        <section className="w-full bg-surface-container-low py-space-xl px-gutter-lg reveal-init" id="download-center">
           <div className="max-w-7xl mx-auto flex flex-col gap-space-lg">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
               <div className="flex flex-col gap-space-xs">
@@ -774,7 +774,7 @@ export default function HargaPage() {
           </div>
         </section>
         {/*  Interactive Simulation & Franco Quotation Banner  */}
-        <section className="w-full bg-surface py-space-xl px-gutter-lg">
+        <section className="w-full bg-surface py-space-xl px-gutter-lg reveal-init">
           <div className="max-w-7xl mx-auto rounded-xl bg-surface-container-lowest shadow-xl p-space-lg lg:p-space-xl">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
               <div className="lg:col-span-7 flex flex-col gap-space-sm">
